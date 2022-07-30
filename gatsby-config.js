@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `v1`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `http://www.csavan.com`
   },
   plugins: ["gatsby-plugin-netlify-cms", "gatsby-plugin-styled-components", {
     resolve: 'gatsby-plugin-google-analytics',
     options: {
-      "trackingId": ""
+      "trackingId": "UA-236092994-1"
     }
   }, "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
